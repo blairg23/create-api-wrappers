@@ -37,7 +37,8 @@ with open(endpoints_list, 'r') as infile:
 methods_file = 'api_methods.txt'
 with open(methods_file, 'a+') as outfile:
 	for modified_line, original_line in modified_lines.iteritems():
-		final_output = modified_line
+		final_output = 'def '
+		final_output += modified_line
 		final_output += '(self):\n'
 		final_output += '\t\'\'\'\n'
 		final_output += '\tImplements https://api.twitter.com/1.1/statuses/{original_line}.json\n'.format(original_line=original_line)

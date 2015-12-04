@@ -1,0 +1,636 @@
+def get_lists_show(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/show.json
+	'''
+	pass
+
+def post_friendships_update(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/friendships/update.json
+	'''
+	pass
+
+def get_collections_entries(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/collections/entries.json
+	'''
+	pass
+
+def post_account_update_profile_image(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/account/update_profile_image.json
+	'''
+	pass
+
+def post_statuses_destroy_id(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/destroy/id.json
+	'''
+	pass
+
+def post_lists_members_create(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/members/create.json
+	'''
+	pass
+
+def get_users_show(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/users/show.json
+	'''
+	pass
+
+def post_account_update_profile(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/account/update_profile.json
+	'''
+	pass
+
+def post_account_update_delivery_device(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/account/update_delivery_device.json
+	'''
+	pass
+
+def get_users_search(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/users/search.json
+	'''
+	pass
+
+def post_media_upload_chunked(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/media/upload.json
+	'''
+	pass
+
+def get_lists_statuses(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/statuses.json
+	'''
+	pass
+
+def get_collections_list(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/collections/list.json
+	'''
+	pass
+
+def get_geo_search(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/geo/search.json
+	'''
+	pass
+
+def post_lists_members_destroy_all(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/members/destroy_all.json
+	'''
+	pass
+
+def post_friendships_destroy(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/friendships/destroy.json
+	'''
+	pass
+
+def get_favorites_list(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/favorites/list.json
+	'''
+	pass
+
+def post_blocks_destroy(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/blocks/destroy.json
+	'''
+	pass
+
+def get_statuses_mentions_timeline(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/mentions_timeline.json
+	'''
+	pass
+
+def post_blocks_create(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/blocks/create.json
+	'''
+	pass
+
+def post_mutes_users_create(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/mutes/users/create.json
+	'''
+	pass
+
+def get_followers_list(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/followers/list.json
+	'''
+	pass
+
+def get_saved_searches_show_id(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/saved_searches/show/id.json
+	'''
+	pass
+
+def get_followers_ids(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/followers/ids.json
+	'''
+	pass
+
+def get_friendships_outgoing(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/friendships/outgoing.json
+	'''
+	pass
+
+def post_collections_entries_add(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/collections/entries/add.json
+	'''
+	pass
+
+def get_account_verify_credentials(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/account/verify_credentials.json
+	'''
+	pass
+
+def post_geo_place(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/geo/place.json
+	'''
+	pass
+
+def post_lists_members_create_all(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/members/create_all.json
+	'''
+	pass
+
+def post_lists_create(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/create.json
+	'''
+	pass
+
+def get_lists_ownerships(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/ownerships.json
+	'''
+	pass
+
+def get_trends_place(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/trends/place.json
+	'''
+	pass
+
+def get_lists_members_show(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/members/show.json
+	'''
+	pass
+
+def get_application_rate_limit_status(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/application/rate_limit_status.json
+	'''
+	pass
+
+def post_account_update_profile_banner(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/account/update_profile_banner.json
+	'''
+	pass
+
+def post_mutes_users_destroy(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/mutes/users/destroy.json
+	'''
+	pass
+
+def post_favorites_create(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/favorites/create.json
+	'''
+	pass
+
+def get_lists_subscribers_show(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/subscribers/show.json
+	'''
+	pass
+
+def get_mutes_users_list(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/mutes/users/list.json
+	'''
+	pass
+
+def get_help_privacy(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/help/privacy.json
+	'''
+	pass
+
+def get_lists_subscriptions(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/subscriptions.json
+	'''
+	pass
+
+def post_collections_entries_curate(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/collections/entries/curate.json
+	'''
+	pass
+
+def get_direct_messages_sent(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/direct_messages/sent.json
+	'''
+	pass
+
+def post_collections_update(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/collections/update.json
+	'''
+	pass
+
+def post_lists_subscribers_create(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/subscribers/create.json
+	'''
+	pass
+
+def get_friendships_lookup(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/friendships/lookup.json
+	'''
+	pass
+
+def post_users_report_spam(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/users/report_spam.json
+	'''
+	pass
+
+def get_lists_members(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/members.json
+	'''
+	pass
+
+def post_saved_searches_create(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/saved_searches/create.json
+	'''
+	pass
+
+def post_favorites_destroy(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/favorites/destroy.json
+	'''
+	pass
+
+def post_account_settings(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/account/settings.json
+	'''
+	pass
+
+def get_help_languages(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/help/languages.json
+	'''
+	pass
+
+def get_friends_list(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/friends/list.json
+	'''
+	pass
+
+def post_direct_messages_destroy(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/direct_messages/destroy.json
+	'''
+	pass
+
+def post_statuses_retweet_id(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/retweet/id.json
+	'''
+	pass
+
+def get_geo_reverse_geocode(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/geo/reverse_geocode.json
+	'''
+	pass
+
+def get_users_suggestions_slug_members(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/users/suggestions/slug/members.json
+	'''
+	pass
+
+def post_lists_destroy(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/destroy.json
+	'''
+	pass
+
+def get_lists_list(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/list.json
+	'''
+	pass
+
+def post_collections_create(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/collections/create.json
+	'''
+	pass
+
+def get_statuses_lookup(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/lookup.json
+	'''
+	pass
+
+def get_lists_memberships(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/memberships.json
+	'''
+	pass
+
+def get_statuses_oembed(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/oembed.json
+	'''
+	pass
+
+def get_users_suggestions_slug(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/users/suggestions/slug.json
+	'''
+	pass
+
+def get_users_lookup(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/users/lookup.json
+	'''
+	pass
+
+def get_statuses_retweets_id(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/retweets/id.json
+	'''
+	pass
+
+def post_direct_messages_new(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/direct_messages/new.json
+	'''
+	pass
+
+def get_statuses_home_timeline(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/home_timeline.json
+	'''
+	pass
+
+def get_mutes_users_ids(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/mutes/users/ids.json
+	'''
+	pass
+
+def get_statuses_show_id(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/show/id.json
+	'''
+	pass
+
+def post_statuses_update(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/update.json
+	'''
+	pass
+
+def get_users_profile_banner(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/users/profile_banner.json
+	'''
+	pass
+
+def get_blocks_list(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/blocks/list.json
+	'''
+	pass
+
+def get_help_tos(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/help/tos.json
+	'''
+	pass
+
+def get_blocks_ids(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/blocks/ids.json
+	'''
+	pass
+
+def post_lists_update(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/update.json
+	'''
+	pass
+
+def get_friendships_incoming(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/friendships/incoming.json
+	'''
+	pass
+
+def post_saved_searches_destroy_id(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/saved_searches/destroy/id.json
+	'''
+	pass
+
+def post_media_upload(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/media/upload.json
+	'''
+	pass
+
+def get_help_configuration(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/help/configuration.json
+	'''
+	pass
+
+def get_collections_show(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/collections/show.json
+	'''
+	pass
+
+def post_account_update_profile_background_image(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/account/update_profile_background_image.json
+	'''
+	pass
+
+def post_lists_subscribers_destroy(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/subscribers/destroy.json
+	'''
+	pass
+
+def post_friendships_create(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/friendships/create.json
+	'''
+	pass
+
+def get_statuses_retweets_of_me(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/retweets_of_me.json
+	'''
+	pass
+
+def get_geo_id_place_id(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/geo/id/place_id.json
+	'''
+	pass
+
+def get_users_suggestions(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/users/suggestions.json
+	'''
+	pass
+
+def get_trends_closest(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/trends/closest.json
+	'''
+	pass
+
+def get_friendships_show(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/friendships/show.json
+	'''
+	pass
+
+def get_search_tweets(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/search/tweets.json
+	'''
+	pass
+
+def get_direct_messages_show(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/direct_messages/show.json
+	'''
+	pass
+
+def get_statuses_retweeters_ids(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/retweeters/ids.json
+	'''
+	pass
+
+def get_friendships_no_retweets_ids(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/friendships/no_retweets/ids.json
+	'''
+	pass
+
+def post_collections_destroy(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/collections/destroy.json
+	'''
+	pass
+
+def post_collections_entries_move(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/collections/entries/move.json
+	'''
+	pass
+
+def get_statuses_user_timeline(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/user_timeline.json
+	'''
+	pass
+
+def get_saved_searches_list(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/saved_searches/list.json
+	'''
+	pass
+
+def get_friends_ids(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/friends/ids.json
+	'''
+	pass
+
+def post_account_remove_profile_banner(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/account/remove_profile_banner.json
+	'''
+	pass
+
+def post_lists_members_destroy(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/members/destroy.json
+	'''
+	pass
+
+def get_trends_available(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/trends/available.json
+	'''
+	pass
+
+def get_direct_messages(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/direct_messages.json
+	'''
+	pass
+
+def get_lists_subscribers(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/lists/subscribers.json
+	'''
+	pass
+
+def get_account_settings(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/account/settings.json
+	'''
+	pass
+
+def post_collections_entries_remove(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/collections/entries/remove.json
+	'''
+	pass
+
+def post_statuses_update_with_media(self):
+	'''
+	Implements https://api.twitter.com/1.1/statuses/statuses/update_with_media.json
+	'''
+	pass
+
