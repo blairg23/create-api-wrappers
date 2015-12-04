@@ -33,13 +33,15 @@ I recommend using the "requests" module.
 
 '''
 import os
+from collections import OrderedDict
 
-debug = False # Set to True to see output
+debug = True # Set to True to see output
 endpoints_list = 'endpoints.txt'
 base_url = 'https://api.twitter.com/1.1/'
 
 with open(endpoints_list, 'r') as infile:
-	modified_lines = {}
+	modified_lines = OrderedDict()
+
 	for line in infile.readlines():
 		line = line.rstrip()
 		# Remove forward slash, replace spaces with underscores, and return the non-capitalized version:
