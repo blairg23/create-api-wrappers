@@ -1,4 +1,4 @@
-GET statuses/mentions_timeline
+GET statuses/mentions_timeline count since_id max_id trim_user contributor_details include_entities
 GET statuses/user_timeline
 GET statuses/home_timeline
 GET statuses/retweets_of_me
@@ -94,19 +94,3 @@ GET help/privacy
 GET help/tos
 GET trends/closest
 POST users/report_spam
-GET collections/list
-GET collections/show
-GET collections/entries
-POST collections/create
-POST collections/update
-POST collections/destroy
-POST collections/entries/add
-POST collections/entries/remove
-POST collections/entries/move
-POST collections/entries/curate
-GET oauth/authenticate
-GET oauth/authorize
-POST oauth/access_token
-POST oauth/request_token
-POST oauth2/invalidate_token
-POST oauth2/token

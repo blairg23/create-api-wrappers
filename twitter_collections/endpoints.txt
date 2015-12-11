@@ -1,0 +1,10 @@
+GET collections/list
+GET collections/show
+GET collections/entries
+POST collections/create
+POST collections/update
+POST collections/destroy
+POST collections/entries/add
+POST collections/entries/remove
+POST collections/entries/move
+POST collections/entries/curate

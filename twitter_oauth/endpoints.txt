@@ -1,0 +1,6 @@
+GET oauth/authenticate
+GET oauth/authorize
+POST oauth/access_token
+POST oauth/request_token
+POST oauth2/invalidate_token
+POST oauth2/token
